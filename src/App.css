@@ -1,18 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-:root {
-    --site-font-family: "Arboreto", cursive;
-    --site-font-size-sm: 12px;
-    --site-font-size-md: 16px;
-    --site-font-size-lg: 30px;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
 }
 
-html, body {
-    margin:0;
-    padding:0;
-    font-family: var(--site-font-family)
+label {
+  display: inline-block;
+  width: 100px;
+}
+input {
+  width:100%;
+}
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.main-container {
-    display: flex;
-    flex-direction: column;
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
 }
+
+h1 {
+  font-family: "Playfair Display SC";
+  text-align:center;
+  font-size: 64px;
+}
+
+/* table */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: whitesmoke
+}
+th:nth-child(n+0):nth-child(-n+3){
+  width: 10%;
+}
+th:nth-child(n+4):nth-child(-n+5){
+  width: 30%;
+}
+th:nth-child(6){
+  width:10%;
+}
+tr:nth-child(odd){
+  background-color: #fff0c7;
+}
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+}
+/* Column size for tbody */
+td:nth-child(n+0):nth-child(-n+3){
+  width: 10%;
+}
+td:nth-child(n+4):nth-child(-n+5){
+  width: 30%;
+}
+td:nth-child(6){
+  width:10%;
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* Images */
+img{
+  object-fit: scale-down;
+  width: 100%;
+}
+
+/* Column Size for thead */
+
+
+
