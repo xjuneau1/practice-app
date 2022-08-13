@@ -1,0 +1,42 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+span {
+    margin:0 0 0 10%;
+    
+}
+h2{
+    font-size: var(--site-font-size-lg);
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 1.5%;
+}
+li {
+    margin:0 2% 0 2%;
+    text-align: center;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:rgb(87, 87, 87, 0.3);
+    color: white;
+    font-size: var(--site-font-size-md);
+    font-family: "Arboreto", cursive;
+    cursor: pointer;
+    transition: 400ms;
+}
+button:hover{
+    background-color:rgb(87, 87, 87, 0.6);
+    color: black;
+}

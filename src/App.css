@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+:root {
+    --site-font-family: "Arboreto", cursive;
+    --site-font-size-sm: 12px;
+    --site-font-size-md: 16px;
+    --site-font-size-lg: 30px;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: var(--site-font-family)
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}

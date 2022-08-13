@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Content from './components/Content';
 import './App.css';
 
 function App() {
   return (
-    <div></div>
+    <main className='main-container'>
+      <Navbar/>
+      <Content/>
+    </main>
   );
 }
 
