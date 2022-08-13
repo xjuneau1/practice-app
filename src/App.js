@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Content color={color} setColor={setColor}/>
     </main>
+
   );
 }
 

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-:root {
-    --site-font-family: "Arboreto", cursive;
-    --site-font-size-sm: 12px;
-    --site-font-size-md: 16px;
-    --site-font-size-lg: 30px;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
 }
 
 html, body {
