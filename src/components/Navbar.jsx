@@ -3,10 +3,10 @@ import "./Navbar.css";
 
 function Navbar() {
   let elements = {
-    title: "Xander Juneau",
-    home: "Home",
-    about: "About",
-    projects: "Projects",
+    title: "Color Changer",
+    home: "RGB",
+    about: "HEX",
+    projects: "By Name",
   };
 
   return (

@@ -1,7 +1,18 @@
 .content-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 250px;
+}
+.content-container p {
+    align-self: center;
+}
+.content-container button {
+    max-width: fit-content;
+    align-self: center;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.text-container{
-}

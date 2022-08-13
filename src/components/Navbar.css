@@ -5,38 +5,39 @@ nav {
     justify-content: space-between;
     border-bottom: 1px solid black;
 }
-span {
+nav span {
     margin:0 0 0 10%;
     
 }
-h2{
+nav h2{
     font-size: var(--site-font-size-lg);
     font-weight: 400;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     margin: 1.5%;
 }
-li {
+nav li {
     margin:0 2% 0 2%;
     text-align: center;
 }
-button {
+nav button {
     border: none;
     border-radius: 5px;
     padding: 10px;
-    background-color:rgb(87, 87, 87, 0.3);
+    background-color:rgb(85, 85, 85, 0.3);
     color: white;
     font-size: var(--site-font-size-md);
     font-family: "Arboreto", cursive;
     cursor: pointer;
     transition: 400ms;
+    width: fit-content;
 }
-button:hover{
-    background-color:rgb(87, 87, 87, 0.6);
+nav button:hover{
+    background-color:rgb(85, 85, 85, 0.6);
     color: black;
 }

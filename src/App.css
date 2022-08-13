@@ -9,10 +9,13 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: var(--site-font-family)
+    font-family: var(--site-font-family);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
